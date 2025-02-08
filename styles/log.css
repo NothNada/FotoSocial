@@ -1,0 +1,114 @@
+body{
+    background-color: #242424;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cima{
+    position: relative;
+    width: 90vw;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 10px 20px 10px;
+    border: 2px solid #ffffff;
+    background-color: #131313;
+    border-radius: 10px;
+}
+
+.btns{
+    position: relative;
+    width: 50%;
+    height: max-content;
+    align-items: baseline;
+    justify-self: right;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    width:100px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    border: #fff solid 2px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.baixo{
+    position: relative;
+    margin-top: 15%;
+}
+
+.form input{
+    background-color: #000;
+    border: #000 solid 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.form input:focus{
+    border: #fff solid 2px;
+}
+
+.form button{
+    background-color: #000;
+    border: #fff solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.form button:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.inputs img{
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.inputs img:hover{
+    cursor: pointer;
+}
+
+.btnsF{
+    display: flex;
+    flex-direction: row;
+}

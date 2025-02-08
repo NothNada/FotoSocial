@@ -1,0 +1,99 @@
+body{
+    background-color: #242424;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.voltar{
+    position: relative;
+    display: flex;
+    width: 15%;
+    height: 50px;
+    align-self: center;
+    font-size: 30px;
+}
+
+.voltar:hover{
+    cursor: pointer;
+}
+
+.cima{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 10px 20px 10px;
+    border: 2px solid #ffffff;
+    background-color: #131313;
+    border-radius: 10px;
+}
+
+.btns{
+    position: relative;
+    width: 50%;
+    height: max-content;
+    justify-self: right;
+    align-self: center;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    width:100px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    border: #fff solid 2px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.nome{
+    position: relative;
+    width: 50%;
+    height: max-content;
+    justify-self: left;
+}
+
+#perfilFt:hover{
+    cursor: pointer;
+}
+
+.fotins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fotins img{
+    width: 200px;
+    
+}
+
+.baixo{
+    position: relative;
+    border: #fff solid 2px;
+    width: 90vw;
+    height: max-content;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
